@@ -16,5 +16,11 @@ WORKDIR /app
 
 COPY . /app
 
-CMD [ "bash" ]
+RUN chmod +x /app/hello.sh
+
+CMD ["/app/hello.sh"]
+
+
+
+
 

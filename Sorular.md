@@ -68,3 +68,4 @@ GIT HUB
 git status - genel bir status gorme
 git add <folder> - yeni create edilmis veya modified edilmis klasorler ekle
 
+git commit -m "myfirstcommit" - after editing needed places ready to share with other or production
